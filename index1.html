@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic image Processing</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Traffic image Processing</h1>
+    <div id="form-container">
+        <form action="/action.php" id="upload-form">
+            <input type="file" id="image-input" accept="image/*">
+            <button type="submit">Upload Image</button>
+        </form>
+    </div>
+
+    <div id="images-container">
+        <div id="original-image" class="image-box">
+            <h2>Original Image</h2>
+            <img src="image-input" alt="Original">
+        </div>
+        <div id="processed-image" class="image-box">
+            <h2>Processed Image</h2>
+            <img src="" alt="Processed">
+        </div>
+    </div>
+</body>
+</html>
